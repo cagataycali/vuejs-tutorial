@@ -1,8 +1,8 @@
-# Day-to-day learning
+# Day-to-day learning
 
-* Hello World
-* ..
+- Hello World
+- ..
 
-## Todos
+## Todos
 
-*Improve readme*
+_Improve readme_
