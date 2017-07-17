@@ -1,0 +1,22 @@
+<script src="https://unpkg.com/vue"></script>
+
+<div id="app">
+  {{a}}
+</div>
+
+<script>
+
+  var app = new Vue({
+    el: '#app',
+    data: {
+      a: 1
+    },
+    created: function () {
+      console.log(`a is ${this.a}`);
+    },
+    updated: function() {
+      console.log(`a updated ${this.a}`);
+    }
+  })
+  window.app = app;
+</script>
