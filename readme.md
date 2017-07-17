@@ -4,3 +4,5 @@
 - Binding
 - Conditionals
 - Loops
+- Component
+- Lifecycle hooks
