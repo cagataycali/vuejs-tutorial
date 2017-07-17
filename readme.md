@@ -1,8 +1,6 @@
 # Day-to-day learning
 
 - Hello World
-- ..
-
-## Todos
-
-_Improve readme_
+- Binding
+- Conditionals
+- Loops
