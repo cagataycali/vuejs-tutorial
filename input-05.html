@@ -1,0 +1,17 @@
+<script src="https://unpkg.com/vue"></script>
+
+<div id="app">
+ <p>{{message}}</p>
+ <input type="text" v-model="message">
+</div>
+
+<script>
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello vue!'
+    }
+  })
+
+  window.app = app;
+</script>
