@@ -1,0 +1,21 @@
+<!-- https://vuejs.org/v2/guide/#Declarative-Rendering -->
+<script src="https://unpkg.com/vue"></script>
+
+
+<div id="app">
+  <span v-bind:title="message">
+    Hover your mouse over me for a few seconds
+    to see my dynamically bound title!
+  </span>
+</div>
+
+<script>
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: `You got it @ ${new Date()}`
+    }
+  })
+
+  window.app = app;
+</script>

@@ -1,0 +1,23 @@
+<!-- https://vuejs.org/v2/guide/#Conditionals-and-Loops -->
+<script src="https://unpkg.com/vue"></script>
+
+
+<div id="app">
+  <p v-if="seen">Now you see me!</p>
+</div>
+
+<script>
+  var app = new Vue({
+    el: '#app',
+    data: {
+      seen: true
+    }
+  })
+
+  window.app = app;
+
+  // Go ahead and enter app.seen = false in the console.
+  // You should see the message disappear.
+
+  // TODO: @cagatay Look 4 transitions : https://vuejs.org/v2/guide/transitions.html
+</script>

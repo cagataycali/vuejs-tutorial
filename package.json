@@ -1,0 +1,7 @@
+{
+  "name": "vuejs-examples",
+  "version": "1.0.0",
+  "description": "Vuejs tutorial examples",
+  "main": "index.js",
+  "license": "MIT"
+}
